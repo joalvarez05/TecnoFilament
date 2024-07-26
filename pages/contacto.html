@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alvarez Dominguez Jose Agustin" />
+    <meta
+      name="keywords"
+      content="Tecnologia, filamentos, 3d, impresiones, eco, ecofilamentos, eco3."
+    />
+    <meta
+      name="description"
+      content="En TecnoFilament proponemos el uso de filamentos 3d de forma segura para no dañar el planeta. "
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" type="image/jpg" sizes="64x64" href="../assets/img/logo-footer.png" />
+
+    <title>TecnoFilament | Gasta menos, sonríe más.</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand text-white"
+            >TecnoFilament</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tiposDeMateriales.html"
+                  >Tipo de materiales</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container py-5">
+          <div class="d-flex display-block formulario">
+            <div class="flex-fill text-center formulario">
+              <img
+                src="../assets/img/cajas-480x480.png"
+                alt="caja de filamento"
+                class="img-fluid imgContacto"
+              />
+            </div>
+            <div class="flex-grow-1 flex-fill formulario" >
+              <form>
+                <div class="mb-3">
+                  <label for="nombreApellido" class="form-label"
+                    >Nombre y Apellido</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombreApellido"
+                    placeholder="Ej : Juan Perez"
+                    required
+                    minlength="4"
+                    maxlength="35"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="pais" class="form-label">País</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="pais"
+                    placeholder="Ej : Argentina"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="provincia" class="form-label"
+                    >Provincia o Estado</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="provincia"
+                    placeholder="Ej : Tucumán"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Ej : juanperez@example.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="telefono"
+                    placeholder="Ej : +54 3814423387"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="consulta" class="form-label">Consulta</label>
+                  <textarea class="form-control resizeContact" id="consulta" rows="4" placeholder="Agregue aquí su consulta" required ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 mb-4"> Enviar </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white p-2">
+      <article class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-3 p-2 logoCentrado">
+            <a href="../index.html">
+              <img src="../assets/img/logo-footer.png" alt=" logo marca" />
+            </a>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 p-2 logoCentrado">
+            <h4>Productos</h4>
+            <a href="#" class="nav-link">Filamentos</a>
+            <a href="#" class="nav-link">Resinas</a>
+            <a href="#" class="nav-link">Impresoras</a>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 p-2 logoCentrado">
+            <h4>Soporte</h4>
+            <a href="#" class="nav-link">Filamentos</a>
+            <a href="#" class="nav-link">Resinas</a>
+            <a href="#" class="nav-link">Impresoras</a>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 p-2 logoCentrado">
+            <h4>TecnoFilament</h4>
+            <a href="#" class="nav-link">Garantia</a>
+            <a href="#" class="nav-link">Distribuidores</a>
+            <a href="#" class="nav-link">Contactos</a>
+            <p class="mt-2">Seguinos en nuestras redes:</p>
+
+            <a href="#" class="nav-link d-inline">
+              <i class="bi bi-facebook px-2 fs-3"></i>
+            </a>
+            <a href="#" class="nav-link d-inline">
+              <i class="bi bi-instagram px-2 fs-3"></i>
+            </a>
+            <a href="#" class="nav-link d-inline">
+              <i class="bi bi-twitter-x px-2 fs-3"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

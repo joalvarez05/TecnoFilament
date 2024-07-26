@@ -1,0 +1,101 @@
+
+/* estilos carousel section 1*/
+.imagenCarousel {
+    width: 100%;
+    max-height: 500px;
+    object-fit:cover;
+    object-position: 50% 70%;
+        
+}
+
+.imagenCarousel1 {
+    object-fit:cover;
+    object-position: 50% 50%;
+}
+
+/* section 2 */
+
+.imagenSec2{ 
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.tarjeta {
+    height: 100%;
+
+}
+
+.cardImg{ 
+    width: 100%;
+    max-height:250px;
+    object-fit: cover;
+    
+}
+
+/* Pagina tipo de materiales */
+
+.list-item {
+    list-style: none;
+    padding:0;
+
+}
+
+.list-item li {
+    position: relative; /* Posiciona el tilde dentro del <li> */
+    padding-left: 20px; /* Espacio para el tilde */
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+  /* Añade el tilde como marcador */
+.list-item li::before {
+    content: "\2713"; /* ESTE ES EL TILDE */
+    position: absolute;
+    left: 0;
+    font-size: 16px; /* Tamaño del tilde */
+}
+
+/* Pagina de contacto */
+
+.resizeContact {
+    resize: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 576px) {
+    /* index */
+
+    .gapCard {
+        gap:15px
+    }
+
+    .bloque {
+        display:block!important;
+    }
+
+    .logoCentrado {
+        text-align:center
+    }
+
+    /* contacto */
+    
+    .display-block {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .imagenCarousel {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+
+    .formulario {
+        width:100%;
+        margin-right:20px;
+    }
+    
+}
